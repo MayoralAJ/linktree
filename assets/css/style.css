@@ -1,0 +1,40 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: white;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+    background: rgb(166,149,187);
+    background: linear-gradient(0deg, rgba(166,149,187,1) 0%, rgba(4,27,98,1) 100%);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    max-width: 80%;
+}
+.profile{
+    width: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid #1c8af1;
+}
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(60, 73, 143);
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 20px 0;
+    text-decoration: none;
+}
+p{
+    color: white;
+    font-weight: 600;
+}
